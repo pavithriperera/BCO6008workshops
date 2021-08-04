@@ -4,7 +4,9 @@ install.packages("skimr")
 install.packages("janitor")
 
 library(tidyverse)
-
+library(tidymodels)
+library(skimr)
+library(janitor)
 
 
 
