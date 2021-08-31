@@ -3,7 +3,7 @@ library(tidyverse)
 library(tidymodels)
 library(skimr)
 
-#upload data 
+#upload data set 
 volcano_raw <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-12/volcano.csv')
 eruptions <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-12/eruptions.csv')
 
